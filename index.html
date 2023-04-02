@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="{{ url_for('static',filename='css/style.css')}}" rel="stylesheet">
+        <h1><center>Strong Arm</center></h1>
+    
+        <script src="{{ url_for('static',filename='js/myfile.js')}}"></script>
+       
+    </head>
+<body>
+    <button id='ShoulderBackward' class = "buttonleft" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Shoulder Backward</button>
+    <button id='ShoulderForward' class = "buttonright" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Shoulder Forward</button>
+    <br><br><br>
+    <button id='ElbowBackward' class = "buttonleft" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Elbow Backward</button>
+    <button id='ElbowForward' class = "buttonright2" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Elbow Forward</button>
+    <br><br><br>
+    <button id='WristBackward' class = "buttonleft" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Wrist Backward</button>
+    <button id='WristForward' class = "buttonright3" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Wrist Forward</button>
+    <br><br><br>
+    <button id='BaseDownward' class = "buttonleft" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Base Down</button>
+    <button id='BaseUpward' class = "buttonright4" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Base Up</button>
+    <br><br><br>
+    <button id='ClawOutward' class = "buttonleft" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Claw Open</button>
+    <button id='ClawInward' class = "buttonright5" onmouseleave="stopButton(this.id)" ontouchstart = "sendButton(this.id)" ontouchend = "stopButton(this.id)" onmousedown="sendButton(this.id)" onmouseup="stopButton(this.id)">Claw Close</button>
+</html>
